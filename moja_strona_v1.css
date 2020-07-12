@@ -1,0 +1,328 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #EDEAF1;
+
+}
+.header {
+    top: 0px;
+    width: 100%;
+    min-height: 200px;
+    background-color: #727577;
+    text-align: center;
+}
+.header-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.header-container .name {
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 30px;
+    color: #1C0120;
+}
+.header-container .sub-name {
+    font-size: 30px;
+    color: #EDEAF1;
+}
+.nav {
+    height: auto;
+    min-height: 50px;
+    width: 100%;
+    padding-left: 50px;
+}
+.nav ul {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.nav li {
+    list-style-type: none;
+    float: left;
+}
+.nav li a {
+    padding: 0px 20px;
+    font-size: 25px;
+    color: #785778;
+    text-decoration: none;
+    width: 100px;
+}
+.nav li a:hover {
+    background-color:#D9D5DE ;
+}
+h2 {
+    left: 10px;
+    padding: 10px;
+    color: #1C0120;
+}
+
+.intro {
+    margin: 0px;
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #727577;
+}
+.intro-container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    text-align: justify;
+
+}
+.intro p {
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.intro .image-container {
+    float: left;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.intro img {
+    width: 200px;
+    height: auto; 
+    border-radius: 70%;
+}
+
+.experience {
+    min-height: 200px;
+    height: auto; 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; 
+}
+.job {
+    width: 60%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+.job h3 {
+    text-align: center;
+}
+.job h5 {
+    text-align: center;
+}
+.experience-h2 {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px; 
+}
+.education {
+    min-height: 200px;
+    height: auto; 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; 
+    background-color: #727577;
+}
+.education-h2 {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px; 
+}
+.education-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.study-name {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.study-university {
+    font-size: 19px;
+    text-decoration-line: underline;
+}
+.study-year {
+    padding-bottom: 10px;
+    color: #2F2B30;
+}
+.skills {
+    min-height: 200px;
+    height: auto; 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.skills-h2 {
+    width: 60%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px; 
+}
+
+.skills-container table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 1px solid black;
+}
+.skills-container td {
+    border: 1px solid black; 
+    padding: 10px;
+}
+.skills-container th {
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #727577;
+    border: 1px solid black; 
+}
+.skills-container table ul {
+    font-size: 18px;
+}
+.languages table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.languages td {
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+}
+.languages img {
+    margin-top: 10px;
+    width: 40px;
+    height: auto;  
+}
+.img-container-fr, .img-container-en,.img-container-nl {
+    text-align: center;
+}
+.languages {
+    min-height: 200px;
+    height: 300px;  
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #727577;
+}
+.languages-h2 {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px; 
+}
+
+.certificates {
+    min-height: 200px;
+    height: auto; 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.certificates-h2 {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px; 
+}
+.certificates table {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dotted #727577;
+}
+
+.certificates td {
+    padding: 5px;
+    font-size: 20px;
+    height: 90px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: #727577;
+    border: 2px dotted #727577;
+    width: 33.334%
+}
+.interests {
+    min-height: 300px;
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #727577;
+}
+.interests-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.interests-h2 {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.interests table {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.interests td {
+    margin: auto;
+    padding: 20px 20px;
+    font-size: 15px;
+    background-color: #EDEAF1;
+    border: 3px dotted #727577;
+    width: 15%;
+}
+.contact {
+    width: 60%;
+    height: 350px;  
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.contact-h2 {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 20px;
+}
+.contact img {
+    width: 80px;
+    height: auto;
+}
+.img-container {
+    text-align: center;
+}
+.contact table {
+    width: 100%;
+}
+.contact td {
+    padding: 10px;
+    width: 33.334%;
+}
